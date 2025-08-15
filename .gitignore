@@ -1,0 +1,54 @@
+# === Terraform ===
+
+# Local .terraform working directory
+.terraform/
+
+.terraform.lock
+
+# Terraform plan files
+*.tfplan
+
+# State files (if using local backend - be cautious!)
+terraform.tfstate
+terraform.tfstate.backup
+
+# State files in workspace folders
+terraform.tfstate.d/
+
+# Crash logs
+crash.log
+
+# Override files for locals and variables (optional)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+
+
+# Local-only backend config
+local-backend.tf
+
+# Sensitive output from 'terraform output'
+*.auto.tfvars.json
+
+# CLI configuration file (optional)
+.terraform.rc
+terraform.rc
+
+# === Editor / OS Specific ===
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Logs and temp
+*.log
+*.tmp
