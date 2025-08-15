@@ -3,7 +3,7 @@
 # Local .terraform working directory
 .terraform/
 
-.terraform.lock
+.terraform.lock.hcl
 
 # Terraform plan files
 *.tfplan
