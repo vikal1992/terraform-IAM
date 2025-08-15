@@ -1,4 +1,4 @@
-resource "aws_iam_user" "lb" {
+resource "aws_iam_user" "IMA-user" {
   name = "terraform-user"
 
   tags = {
