@@ -7,7 +7,11 @@ resource "aws_iam_user" "IMA-user" {
 }
 
 resource "aws_iam_user_login_profile" "example" {
-  user    = "terraform-user"
+  user    = aws_iam_user.IMA-user.name
   password_length         = 16
   password_reset_required = true
+}
+
+resource "aws_iam_access_key" "lb" {
+  user    = aws_iam_user.IMA-user.name
 }
