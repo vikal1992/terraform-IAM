@@ -7,5 +7,5 @@ resource "aws_iam_user" "IMA-user" {
 }
 
 resource "aws_iam_user_login_profile" "example" {
-  user    = "terreform-user"
+  user    = "terraform-user"
 }
