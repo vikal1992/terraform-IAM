@@ -1,5 +1,5 @@
 resource "aws_iam_user" "IMA-user" {
-  name = "terraform-first-user"
+  name = "terraform-user"
 
 
 
